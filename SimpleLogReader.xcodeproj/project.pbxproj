@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F51AEBD125B9AE20009AD9BA /* task.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F51AEBD025B9AE20009AD9BA /* task.rtf */; };
+		F5658ECD221CF790000FAB21 /* LogOperator.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5658ECC221CF78F000FAB21 /* LogOperator.mm */; };
+		F5658ED3221CFF82000FAB21 /* MatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5658ED2221CFF82000FAB21 /* MatchView.m */; };
+		F585EF47221BC4980074F9FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F585EF46221BC4980074F9FE /* AppDelegate.m */; };
+		F585EF4A221BC4980074F9FE /* MatchViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F585EF49221BC4980074F9FE /* MatchViewController.mm */; };
+		F585EF4D221BC4980074F9FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F585EF4B221BC4980074F9FE /* Main.storyboard */; };
+		F585EF4F221BC49A0074F9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585EF4E221BC49A0074F9FE /* Assets.xcassets */; };
+		F585EF52221BC49A0074F9FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F585EF50221BC49A0074F9FE /* LaunchScreen.storyboard */; };
+		F585EF55221BC49A0074F9FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F585EF54221BC49A0074F9FE /* main.m */; };
+		F585EF5D221BC4E10074F9FE /* LogReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F585EF5B221BC4E10074F9FE /* LogReader.cpp */; };
+		F5875D0A221FFF4100B59C60 /* BatchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5875D08221FFF4100B59C60 /* BatchOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F51AEBD025B9AE20009AD9BA /* task.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = task.rtf; sourceTree = "<group>"; };
+		F5658ECB221CF78F000FAB21 /* LogOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogOperator.h; sourceTree = "<group>"; };
+		F5658ECC221CF78F000FAB21 /* LogOperator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LogOperator.mm; sourceTree = "<group>"; };
+		F5658ED1221CFF82000FAB21 /* MatchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchView.h; sourceTree = "<group>"; };
+		F5658ED2221CFF82000FAB21 /* MatchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchView.m; sourceTree = "<group>"; };
+		F585EF42221BC4980074F9FE /* SimpleLogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F585EF45221BC4980074F9FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F585EF46221BC4980074F9FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F585EF48221BC4980074F9FE /* MatchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
+		F585EF49221BC4980074F9FE /* MatchViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MatchViewController.mm; sourceTree = "<group>"; };
+		F585EF4C221BC4980074F9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F585EF4E221BC49A0074F9FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F585EF51221BC49A0074F9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F585EF53221BC49A0074F9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F585EF54221BC49A0074F9FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F585EF5B221BC4E10074F9FE /* LogReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LogReader.cpp; sourceTree = "<group>"; };
+		F585EF5C221BC4E10074F9FE /* LogReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LogReader.hpp; sourceTree = "<group>"; };
+		F5875D08221FFF4100B59C60 /* BatchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatchOperation.m; sourceTree = "<group>"; };
+		F5875D09221FFF4100B59C60 /* BatchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatchOperation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F585EF3F221BC4980074F9FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F585EF39221BC4980074F9FE = {
+			isa = PBXGroup;
+			children = (
+				F585EF44221BC4980074F9FE /* SimpleLogReader */,
+				F585EF43221BC4980074F9FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F585EF43221BC4980074F9FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F585EF42221BC4980074F9FE /* SimpleLogReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F585EF44221BC4980074F9FE /* SimpleLogReader */ = {
+			isa = PBXGroup;
+			children = (
+				F51AEBD025B9AE20009AD9BA /* task.rtf */,
+				F585EF45221BC4980074F9FE /* AppDelegate.h */,
+				F585EF46221BC4980074F9FE /* AppDelegate.m */,
+				F5658ED1221CFF82000FAB21 /* MatchView.h */,
+				F5658ED2221CFF82000FAB21 /* MatchView.m */,
+				F585EF48221BC4980074F9FE /* MatchViewController.h */,
+				F585EF49221BC4980074F9FE /* MatchViewController.mm */,
+				F585EF5C221BC4E10074F9FE /* LogReader.hpp */,
+				F585EF5B221BC4E10074F9FE /* LogReader.cpp */,
+				F5658ECB221CF78F000FAB21 /* LogOperator.h */,
+				F5658ECC221CF78F000FAB21 /* LogOperator.mm */,
+				F5875D09221FFF4100B59C60 /* BatchOperation.h */,
+				F5875D08221FFF4100B59C60 /* BatchOperation.m */,
+				F585EF4B221BC4980074F9FE /* Main.storyboard */,
+				F585EF4E221BC49A0074F9FE /* Assets.xcassets */,
+				F585EF50221BC49A0074F9FE /* LaunchScreen.storyboard */,
+				F585EF53221BC49A0074F9FE /* Info.plist */,
+				F585EF54221BC49A0074F9FE /* main.m */,
+			);
+			path = SimpleLogReader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F585EF41221BC4980074F9FE /* SimpleLogReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F585EF58221BC49A0074F9FE /* Build configuration list for PBXNativeTarget "SimpleLogReader" */;
+			buildPhases = (
+				F585EF3E221BC4980074F9FE /* Sources */,
+				F585EF3F221BC4980074F9FE /* Frameworks */,
+				F585EF40221BC4980074F9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLogReader;
+			productName = SimpleLogReader;
+			productReference = F585EF42221BC4980074F9FE /* SimpleLogReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F585EF3A221BC4980074F9FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Vladislav Garifulin";
+				TargetAttributes = {
+					F585EF41221BC4980074F9FE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F585EF3D221BC4980074F9FE /* Build configuration list for PBXProject "SimpleLogReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F585EF39221BC4980074F9FE;
+			productRefGroup = F585EF43221BC4980074F9FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F585EF41221BC4980074F9FE /* SimpleLogReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F585EF40221BC4980074F9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F585EF52221BC49A0074F9FE /* LaunchScreen.storyboard in Resources */,
+				F51AEBD125B9AE20009AD9BA /* task.rtf in Resources */,
+				F585EF4F221BC49A0074F9FE /* Assets.xcassets in Resources */,
+				F585EF4D221BC4980074F9FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F585EF3E221BC4980074F9FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5658ED3221CFF82000FAB21 /* MatchView.m in Sources */,
+				F585EF4A221BC4980074F9FE /* MatchViewController.mm in Sources */,
+				F5875D0A221FFF4100B59C60 /* BatchOperation.m in Sources */,
+				F5658ECD221CF790000FAB21 /* LogOperator.mm in Sources */,
+				F585EF55221BC49A0074F9FE /* main.m in Sources */,
+				F585EF47221BC4980074F9FE /* AppDelegate.m in Sources */,
+				F585EF5D221BC4E10074F9FE /* LogReader.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F585EF4B221BC4980074F9FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F585EF4C221BC4980074F9FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F585EF50221BC49A0074F9FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F585EF51221BC49A0074F9FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F585EF56221BC49A0074F9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F585EF57221BC49A0074F9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F585EF59221BC49A0074F9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PNL87KE7YU;
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = SimpleLogReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = " -ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = net.Metaquotes.SimpleLogReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F585EF5A221BC49A0074F9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PNL87KE7YU;
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = SimpleLogReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = " -ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = net.Metaquotes.SimpleLogReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F585EF3D221BC4980074F9FE /* Build configuration list for PBXProject "SimpleLogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F585EF56221BC49A0074F9FE /* Debug */,
+				F585EF57221BC49A0074F9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F585EF58221BC49A0074F9FE /* Build configuration list for PBXNativeTarget "SimpleLogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F585EF59221BC49A0074F9FE /* Debug */,
+				F585EF5A221BC49A0074F9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F585EF3A221BC4980074F9FE /* Project object */;
+}

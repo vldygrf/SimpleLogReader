@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "s[10]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CLogReader::Parse(bool):LogReader.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "CLogReader::Clear():LogReader.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int)&apos;xb0&apos;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CLogReader::MatchedString(char const*):LogReader.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "mask[j]">
+            </PersistentString>
+            <PersistentString
+               value = "s[i]">
+            </PersistentString>
+            <PersistentString
+               value = "(int)&apos;&#x430;&apos;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "::-[NSLogOperator processResultOf:](CLogReader *):LogOperator.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "matched_strings[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "::__52-[NSLogOperator URLSession:dataTask:didReceiveData:]_block_invoke(const void *, NSRange, BOOL *):LogOperator.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char *)bytes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CLogReader::AddSourceBlock(char const*, unsigned long):LogReader.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "block[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CLogReader::Parse():LogReader.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
